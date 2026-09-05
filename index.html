@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackmores Việt Nam - Danh Mục Sản Phẩm Bảo Vệ Sức Khỏe Cao Cấp</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <div class="container">
+            <span><i class="fa-solid fa-circle-info"></i> Trang tra cứu & tham khảo thông tin sản phẩm Blackmores phi thương mại</span>
+            <span><i class="fa-solid fa-graduation-cap"></i> Phục vụ nghiên cứu học tập & phát triển phi lợi nhuận</span>
+            <span class="desktop-only"><i class="fa-solid fa-shield-halved"></i> Toàn bộ bản quyền hình ảnh & thương hiệu thuộc về Blackmores Australia</span>
+        </div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="main-header">
+        <div class="container header-container">
+            <!-- Logo -->
+            <a href="#" class="logo">
+                <span class="logo-black">BLACKMORES <span class="logo-badge">WIKI</span></span>
+                <span class="logo-sub">TRANG TRA CỨU SẢN PHẨM THAM KHẢO</span>
+            </a>
+
+            <!-- Search Bar (Desktop) -->
+            <div class="search-bar">
+                <input type="text" id="product-search" placeholder="Tìm kiếm sản phẩm theo tên, công dụng...">
+                <button type="button" aria-label="Tìm kiếm"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+
+            <!-- Header Links -->
+            <nav class="header-nav desktop-only">
+                <a href="#about" class="nav-link">Giới thiệu</a>
+                <a href="#products-section" class="nav-link">Sản phẩm</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Search Bar -->
+    <div class="mobile-search container">
+        <div class="search-bar">
+            <input type="text" id="product-search-mobile" placeholder="Tìm kiếm sản phẩm...">
+            <button type="button" aria-label="Tìm kiếm"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="hero-subtitle">Thương hiệu bổ sung sức khỏe hàng đầu tại Úc</span>
+            <h1 class="hero-title">Khơi Nguồn Sức Khỏe <br><span>Từ Tinh Túy Thiên Nhiên</span></h1>
+            <p class="hero-desc">Hơn 90 năm đồng hành cùng hàng triệu gia đình trên thế giới, mang đến các giải pháp chăm sóc sức khỏe toàn diện từ nguồn nguyên liệu tự nhiên tinh khiết, vượt qua các tiêu chuẩn kiểm định khắt khe nhất của Úc.</p>
+            <div class="hero-buttons">
+                <a href="#products-section" class="btn btn-primary btn-lg">Xem Danh Mục Sản Phẩm <i class="fa-solid fa-arrow-down"></i></a>
+                <a href="#about" class="btn btn-outline-white btn-lg">Tìm Hiểu Về Blackmores</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fa-solid fa-seedling"></i>
+                </div>
+                <h3>100% Thiên Nhiên</h3>
+                <p>Thành phần tự nhiên được chiết xuất tinh khiết, kiểm định nghiêm ngặt đạt chuẩn CGMP Úc.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fa-solid fa-medal"></i>
+                </div>
+                <h3>Nhập Khẩu Chính Hãng</h3>
+                <p>Phân phối chính ngạch, đầy đủ tem mác của nhà nhập khẩu và kiểm định chất lượng của Bộ Y Tế.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fa-solid fa-user-doctor"></i>
+                </div>
+                <h3>Chứng Nhận Khoa Học</h3>
+                <p>Mỗi công thức là sự kết hợp tối ưu giữa y học tự nhiên cổ truyền và bằng chứng khoa học hiện đại.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fa-solid fa-hand-holding-heart"></i>
+                </div>
+                <h3>An Toàn Lành Tính</h3>
+                <p>Tuyệt đối không chứa chất bảo quản, màu nhân tạo hoặc chất kích thích gây hại cho cơ thể.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Products Section -->
+    <section class="products-section" id="products-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Danh mục sản phẩm</span>
+                <h2 class="section-title">Thực Phẩm Bảo Vệ Sức Khỏe Blackmores</h2>
+                <div class="section-decor"></div>
+            </div>
+
+            <!-- Categories Filter -->
+            <div class="categories-filter">
+                <button class="filter-btn active" data-category="all">Tất cả sản phẩm</button>
+                <button class="filter-btn" data-category="vitamin">Vitamin & Sức đề kháng</button>
+                <button class="filter-btn" data-category="tim-mach">Tim mạch & Huyết áp</button>
+                <button class="filter-btn" data-category="phu-nu">Sức khỏe Phụ nữ</button>
+                <button class="filter-btn" data-category="thai-doc">Hỗ trợ & Thải độc</button>
+                <button class="filter-btn" data-category="xuong-khop">Xương khớp & Cơ</button>
+                <button class="filter-btn" data-category="nao-bo">Não bộ & Trí nhớ</button>
+                <button class="filter-btn" data-category="tre-em">Dành cho Trẻ em</button>
+            </div>
+
+            <!-- Products Info Bar -->
+            <div class="products-info-bar">
+                <div class="products-count-label">Tìm thấy <span id="products-count">11</span> sản phẩm phù hợp</div>
+                <div class="layout-label"><i class="fa-solid fa-list"></i> Hiển thị dạng danh sách chi tiết</div>
+            </div>
+
+            <!-- Product Vertical List (Top-to-Bottom) -->
+            <div class="products-list-vertical" id="products-list">
+                <!-- Products will be generated dynamically via JS as beautiful row-items -->
+                <div class="loading-state">
+                    <i class="fa-solid fa-spinner fa-spin"></i> Đang tải danh mục sản phẩm...
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container about-container">
+            <div class="about-image">
+                <div class="about-img-wrapper">
+                    <div class="heritage-badge">
+                        <i class="fa-solid fa-australia"></i>
+                        <span>Since 1932<br>Australia</span>
+                    </div>
+                    <!-- Display a beautiful placeholder containing our customized visual theme styling -->
+                    <div class="about-nature-art">
+                        <i class="fa-solid fa-leaf"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="about-content">
+                <span class="about-subtitle">Về Thương Hiệu Blackmores</span>
+                <h2 class="about-title">Hơn 90 Năm Khai Phá Sức Khỏe Tự Nhiên</h2>
+                <p>Được thành lập bởi Maurice Blackmore vào năm 1932 tại Úc, Blackmores là thương hiệu dẫn đầu trong lĩnh vực chăm sóc sức khỏe từ thiên nhiên. Chúng tôi cam kết mang lại các sản phẩm bổ sung dinh dưỡng chất lượng cao, an toàn và hiệu quả vượt trội, dựa trên sự kết hợp hài hòa giữa các liệu pháp tự nhiên truyền thống và nghiên cứu y học hiện đại.</p>
+                <p>Mỗi công thức của Blackmores đều được nghiên cứu sâu sắc bởi đội ngũ chuyên gia và nhà khoa học đầu ngành, sử dụng nguồn nguyên liệu tốt nhất thế giới và tuân thủ quy trình sản xuất nghiêm ngặt để bảo vệ sức khỏe vững bền của bạn và người thân.</p>
+                
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-num">90+</span>
+                        <span class="stat-label">Năm kinh nghiệm</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">100%</span>
+                        <span class="stat-label">Đạt chuẩn chất lượng Úc</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">Mtri+</span>
+                        <span class="stat-label">Người tiêu dùng tin tưởng</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-col brand-col">
+                <h3 class="footer-brand">BLACKMORES <span class="logo-badge">WIKI</span></h3>
+                <p class="footer-brand-desc">Trang tra cứu & tham khảo thông tin sản phẩm thiên nhiên Blackmores phi lợi nhuận. Hỗ trợ cung cấp kiến thức sức khỏe học thuật cho cộng đồng học tập.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Youtube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Sức khỏe & Đề kháng</h4>
+                <ul>
+                    <li><a href="#products-section">Blackmores Bio C 1000mg</a></li>
+                    <li><a href="#products-section">Multivitamin cho nam giới</a></li>
+                    <li><a href="#products-section">Tinh dầu hoa anh thảo</a></li>
+                    <li><a href="#products-section">Dầu cá hồi Double Strength</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Thông tin hữu ích</h4>
+                <ul>
+                    <li><a href="#about">Lịch sử Maurice Blackmore</a></li>
+                    <li><a href="#about">Tiêu chuẩn CGMP khắt khe</a></li>
+                    <li><a href="#about">Nguyên liệu tự nhiên chọn lọc</a></li>
+                    <li><a href="#about">Khoa học tự nhiên & Sức khỏe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom-content">
+                <div class="disclaimer-container">
+                    <p class="disclaimer-title"><i class="fa-solid fa-triangle-exclamation"></i> TUYÊN BỐ MIỄN TRỪ TRÁCH NHIỆM BẢN QUYỀN (COPYRIGHT DISCLAIMER)</p>
+                    <p class="disclaimer-text">Đây là trang web cá nhân phi thương mại được xây dựng hoàn toàn cho mục đích học tập, tham khảo thông tin học thuật và tra cứu đặc tính sản phẩm sức khỏe. Trang web này hoàn toàn <strong>không bán hàng, không giao dịch thương mại, không có mối liên kết chính thức, không đại diện và không giả mạo thương hiệu chính hãng Blackmores</strong> tại Việt Nam hay bất kỳ quốc gia nào khác.</p>
+                    <p class="disclaimer-text">Tất cả nhãn hiệu thương mại, logo, bao bì và tên sản phẩm thuộc dòng sản phẩm sức khỏe xuất hiện trên trang này đều thuộc sở hữu trí tuệ hoàn toàn của tập đoàn <strong>Blackmores Australia</strong>. Chúng tôi cực kỳ tôn trọng bản quyền thương hiệu và cam kết sử dụng hình ảnh chỉ với mục đích học tập, minh họa tham khảo phi lợi nhuận.</p>
+                </div>
+                <p>&copy; 2026 Blackmores Info Catalog (Wiki). Trang thông tin tham khảo phi lợi nhuận.</p>
+                <p>Chú ý: Các sản phẩm được đề cập là thực phẩm bảo vệ sức khỏe, không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="app.js"></script>
+</body>
+</html>
